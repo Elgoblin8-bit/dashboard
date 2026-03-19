@@ -1,46 +1,45 @@
 // Edit this file to update your schedule and deadlines
 export const schedule = {
   Monday: [
-    { time: "9:00 AM", name: "Capstone Project", room: "CS 301" },
-    { time: "11:00 AM", name: "Machine Learning", room: "CS 205" },
-    { time: "2:00 PM", name: "Operating Systems", room: "CS 110" },
+    { time: "11:00 AM", name: "CMSC 380", room: "Roddy 140" },
+    { time: "12:00 PM", name: "CMSC 340", room: "Roddy 140" },
+    { time: "2:00 PM", name: "MATH 304", room: "Wick 200" },
+    { time: "4:00 PM", name: "CMSC 476", room: "Roddy 136" },
   ],
   Tuesday: [
-    { time: "10:00 AM", name: "Distributed Systems", room: "CS 402" },
-    { time: "1:00 PM", name: "Technical Writing", room: "ENG 201" },
+    { time: "1:40 PM", name: "MATH 304", room: "Wick 200" },
   ],
   Wednesday: [
-    { time: "9:00 AM", name: "Capstone Project", room: "CS 301" },
-    { time: "11:00 AM", name: "Machine Learning", room: "CS 205" },
-    { time: "2:00 PM", name: "Operating Systems", room: "CS 110" },
+    { time: "11:00 AM", name: "CMSC 340", room: "Roddy 140" },
   ],
   Thursday: [
-    { time: "10:00 AM", name: "Distributed Systems", room: "CS 402" },
-    { time: "1:00 PM", name: "Technical Writing", room: "ENG 201" },
+    { time: "10:00 AM", name: "CMSC 380", room: "Roddy 140" },
+    { time: "1:40 PM", name: "MATH 304", room: "Wick 200" },
+    { time: "3:10 PM", name: "CMSC 476", room: "Roddy 136" },
   ],
   Friday: [
-    { time: "9:00 AM", name: "Capstone Project Lab", room: "CS 301" },
+    { time: "11:00 AM", name: "CMSC 380", room: "Roddy 140" },
+    { time: "12:00 PM", name: "CMSC 340", room: "Roddy 140" },
+    { time: "2:00 PM", name: "MATH 304", room: "Wick 200" },
+    { time: "4:00 PM", name: "CMSC 476", room: "Roddy 136" },
   ],
 }
 
 export const deadlines = [
-  { name: "ML Assignment 4", due: "2026-03-19", course: "Machine Learning" },
-  { name: "OS Lab Report", due: "2026-03-21", course: "Operating Systems" },
-  { name: "Capstone Milestone 2", due: "2026-03-25", course: "Capstone" },
-  { name: "Distributed Sys Paper", due: "2026-03-28", course: "Distributed Systems" },
+  { name: "Life in the Fast Lane", due: "2026-03-23", course: "Parallel Programming" },
+  { name: "Exam/Exam Review", due: "2026-03-23", course: "Computational Models" },
+  { name: "Redirection Lab continued", due: "2026-03-23", course: "Operating Systems" },
 ]
 
 export const events = [
-  { date: "2026-03-19", name: "Career Fair" },
-  { date: "2026-03-21", name: "Study Group" },
-  { date: "2026-03-24", name: "Mock Interview" },
-  { date: "2026-03-28", name: "Capstone Presentation" },
+  { date: "2026-03-28", name: "CPOSC" },
+  { date: "2026-03-31", name: "Independent study check-in" },
 ]
 
 export const quickLinks = [
   { name: "GitHub", url: "https://github.com", icon: "🐙" },
   { name: "LeetCode", url: "https://leetcode.com", icon: "🧩" },
-  { name: "School Portal", url: "#", icon: "🎓" },
+  { name: "School Portal", url: "https://millersville.desire2learn.com/d2l/home", icon: "🎓" },
   { name: "LinkedIn", url: "https://linkedin.com", icon: "💼" },
   { name: "Stack Overflow", url: "https://stackoverflow.com", icon: "📚" },
   { name: "ChatGPT", url: "https://chat.openai.com", icon: "🤖" },
